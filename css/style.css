@@ -355,7 +355,7 @@ tbody td:last-child {
     font-size: 32px;
     line-height: 38px;
     text-transform: uppercase;
-    color: var(--color-da --color-dak);
+    color: var(--color-dak);
     margin-bottom: 8px;
 }
 
@@ -516,9 +516,9 @@ tbody td:last-child {
         align-items: center;
         gap: 20px;
     }
-
+    .header__block button,
     .header__block button:first-child {
-        width: 150px;
+        width: 250px;
     }
 
     .burger-menu {
@@ -556,20 +556,9 @@ tbody td:last-child {
     .footer {
         padding: 40px 0;
     }
-
-
 }
 
 @media(max-width:450px) {
-    .header__block button {
-        width: 250px;
-        border-radius: 10px;
-    }
-
-    .header__block button:first-child {
-        width: 250px;
-    }
-
     h1 {
         margin: 30px 0;
     }
